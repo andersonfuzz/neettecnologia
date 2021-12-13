@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="img/icon.png" alt="icon" id="icon_header">
+
+<nav>
+    
+    <a href="index.html" target="_self"><abbr title="Página Inicial"><img src="img/sinal-de-inicio.png" alt="inicio"></abbr></a>
+    <a href="produtos.html" target="_self"><abbr title="Serviços"><img src="img/empreendedor.png" alt="empreendedor"></abbr></a>
+    <a href="cadastro.html"><abbr title="Cadastro"><img src="img/cadastro.png" alt="cadastro"></abbr></a>
+    <a href="duvidas.html" target="_self"><abbr title="Dúvidas?"><img src="img/chatboot.png" alt="duvidas"></abbr></a>
+    
+</nav>
+</header>
+
+<main>
+    <h1>Cadastro</h1>
+    <p>Esse é o primeiro passo rumo a realização do seu sonho!</p>
+
+    <div>
+        <label for="" class="ma">Seu Nome:</label>
+        <input type="text" name="nome" id="nome">
+    </div>
+
+    <div>
+        <label for="" class="ma">CPF:</label>
+        <input type="text" name="cpf" id="cpf">
+    </div>
+
+    <div>
+        <label for="" class="ma">Email:</label>
+        <input type="email" name="" id="">
+    </div>
+
+    <div>
+        <label for="" class="ma">Endereço:</label>
+        <input type="text" name="" id="">
+    </div>
+
+    <label for="" id="lab_int">Interessado em:</label>
+
+    <div>
+        
+        <input type="checkbox" name="Automação" id="automacao">
+        <label for="">Automação</label>
+        
+        <input type="checkbox" name="Web" id="web">
+        <label for="">Web</label>
+        
+        <input type="checkbox" name="Desktop" id="desktop">
+        <label for="">Desktop</label>
+    </div>
+
+    <label for="">Quer nos contar algo? Fique à vontade!</label>
+    <textarea name="comentario" id="comentario" cols="38" rows="5"></textarea>
+
+    <button onclick="enviar()">Enviar</button>
+</main>
+
+<footer>
+    <p>&copy;Desenvolvido pelo 2° Módulo de TDS</p>
+</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
